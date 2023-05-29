@@ -55,3 +55,29 @@ $(document).ready(function () {
     }
   });
 });
+
+// const navLinks = document.querySelectorAll(".nav-item");
+// const menuToggle = document.getElementById("myNavbar");
+// const bsCollapse = new bootstrap.Collapse(menuToggle);
+// navLinks.forEach((l) => {
+//   l.addEventListener("click", () => {
+//     bsCollapse.toggle();
+//   });
+// });
+
+// const navButton = document.querySelector(".nav-button");
+// navButton.addEventListener("click", () => {
+//   navButton.classList.toggle("change");
+// });
+
+// const navLinks = document.querySelectorAll(".nav-item:not(.dropdown)");
+// const menuToggle = document.getElementById("navbarSupportedContent");
+// const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
+// navLinks.forEach(function (l) {
+//   l.addEventListener("click", function () {
+//     // avoid flickering on desktop
+//     if (menuToggle.classList.contains("show")) {
+//       bsCollapse.toggle();
+//     }
+//   });
+// });
